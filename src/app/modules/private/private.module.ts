@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { PrivateRoutingModule } from './private-routing.module';
 import { PrivateAreaComponent } from './components/private-area/private-area.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
-  declarations: [PrivateAreaComponent],
+  declarations: [PrivateAreaComponent, DashboardComponent],
   imports: [
     CommonModule,
     PrivateRoutingModule
